@@ -1,0 +1,94 @@
+h1 {
+	color:#22668D;
+	font-weight:bolder;
+	font-size:32px;
+}
+h2{
+	color:#22668D;
+}
+body{
+	
+	font-family: 'Poppins', sans-serif;
+	font-weight: lighter;
+	color : #071952 ;
+	font-size:16px;
+}
+img{
+	width : 50px;
+	height:70px;
+	;
+}
+
+h1,h2,h3{
+	    font-family: 'Oswald', sans-serif;
+}
+
+a{text-decoration:none;
+	color : #FFCC70;
+}
+
+a:hover{ color : violet;
+}
+
+.img-circle{border-radius:20%}
+.text-center{text-align:center}
+
+#profilepic {
+	border:2px solid #22668D;
+	display:block ;
+	margin:auto
+}
+
+#container { background-color : #FFFADD;
+	padding:40px;
+ }
+
+.box{
+	background-color: #FFFADD;
+	width : 600px;
+	margin: 40px auto;
+	padding:30px;
+	box-shadow:0px 10px 30px rgba(0,0,0,0.3);
+	border-radius : 5px
+}
+
+#head{
+	background-color: #FFCC70;
+	width : 600px;
+	margin: 100px auto;
+	padding:30px;
+	box-shadow:0px 10px 30px rgba(0,0,0,0.3);
+	border-radius : 5px; 
+}
+
+.btn-blue{
+	background-color : aliceblue;
+	color : blue;
+	padding:10px 10px;
+	border-radius:5px;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left : none;
+}
+.list-inline i{
+	font-size : 30px ;
+ ;
+}
+.list-inline li{
+	display:inline;
+	padding : 10px
+}
+
+@media (max-width:500px){
+	#container{width : 200px}
+	.box {width:100px;
+		background-color:blue;
+	}
+}
+
+@media (max-width:760px){
+	#container{width : 600px}
+	.box{width:600px}
+}
